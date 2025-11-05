@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04c14b6-58f7-4d7c-a357-625ad9ae8487" name="Changes" comment="" />
+    <list default="true" id="a04c14b6-58f7-4d7c-a357-625ad9ae8487" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoints/DevBranchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/test/UserTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/test/UserTest2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/code-practice/Guo/OpenCartGuo",
+    "last_opened_file_path": "D:/code-practice/Guo/PetStoreAPIAutomation",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -44,48 +50,29 @@
       <recent name="api.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/code-practice/Guo/PetStoreAPIAutomation/testng.xml">
-    <configuration name="DDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DemoCollections">
+    <configuration name="DemoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.DemoCollections" />
       <module name="PetStoreAPIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.DDTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DDTest.testGetUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.DemoTest" />
       <module name="PetStoreAPIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="api.test" />
-      <option name="MAIN_CLASS_NAME" value="api.test.DDTest" />
-      <option name="METHOD_NAME" value="testGetUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/code-practice/Guo/PetStoreAPIAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PetStoreAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,13 +111,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest2.testGetUserByName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetStoreAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UserTest2" />
+      <option name="METHOD_NAME" value="testGetUserByName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/code-practice/Guo/PetStoreAPIAutomation/testng.xml" />
+        <item itemvalue="Application.DemoCollections" />
+        <item itemvalue="Application.DemoTest" />
         <item itemvalue="TestNG.UserTest2" />
+        <item itemvalue="TestNG.UserTest2.testGetUserByName" />
         <item itemvalue="TestNG.UserTest" />
-        <item itemvalue="TestNG.DDTest" />
-        <item itemvalue="TestNG.DDTest.testGetUser" />
       </list>
     </recent_temporary>
   </component>
